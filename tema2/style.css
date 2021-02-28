@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #555;
+}
+
+body {
+    background: url('https://raw.githubusercontent.com/WebToLearn/personal-page-css-workshop/master/img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.resume-container {
+  background: white;
+  width: 990px;
+  margin: 0 auto 30px auto;
+  padding: 30px 20px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 6px #c0392b;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: #999;
+    margin-bottom: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu {
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #999;
+    vertical-align: text-bottom;
+}
+
+.menu-item-active {
+    position: relative;
+    bottom: -1px;
+    color: #c0392b;
+    padding: 15px 40px 15px 40px;
+    margin-top : 0;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #f1f1f1;
+}
+
+section {
+    margin-right: 20px;
+}
+
+section h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+section h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+section p {
+    margin: 25px auto 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.resume-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+div.resume-date {
+    margin-top: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #5bc0de;
+    height: auto;
+    color: white;
+    height: 100%;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+section:first-of-type>div:nth-of-type(4)>div {
+    background-color: #c0392b;
+}
+
+
+section:nth-of-type(2)>div:nth-of-type(1)>div{
+    background-color: #5db85c;
+}
+
+section:nth-of-type(2)>div:nth-of-type(2)>div{
+    background-color: #f1c40f;
+}
+
+aside {
+    border-left: 2px solid rgba(1,1,1,.1);
+    padding-left: 20px;
+}
+
+ul {
+    padding : 0;
+    list-style: none;
+}
+
+li {
+    height: 30px;
+}
+
+
+aside>h2 {
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+aside>h3 {
+    margin: 25px auto 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+aside>ul *{
+    margin-bottom: 15px;
+}
+
+.skills-item {
+    position: relative;
+    border: 2px solid rgba(1,1,1,.1);
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.skills-bg {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    line-height: 1.5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    color: white;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.photoshop, .typography {
+    background-color: #5db85c;
+}
+
+.ilustrator, .user {
+    background-color: #f1c40f;
+}
+
+.indesign, .web, .ruby {
+    background-color: #8e44ad;
+}
+
+.sketch, .javascript {
+    background-color: #c0392b;
+}
+
+.office, .html {
+    background-color: #2ce050;
+}
+
+.linux, .php, .python {
+    background-color: #555;;
+}
